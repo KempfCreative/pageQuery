@@ -4,7 +4,7 @@ const pageQuery = {
     },
 
     queryString: () => {
-        const fullQuery = window.location.search > 0 ? window.location.search.substring(1) : null;
+        const fullQuery = window.location.search.length > 0 ? window.location.search.substring(1) : null;
         if(fullQuery !== null) { pageQuery.searchStrings(fullQuery) };
     },
 
