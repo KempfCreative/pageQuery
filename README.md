@@ -3,9 +3,9 @@
 ## A lightweight wrapper for getting `window.location.search` params and values.
 
 ### To Do:
-[ ] Unit Test coverage
-[ ] Evaluate if the init should be bootstrap via IIFE to allow for zero configuration
-[ ] Evaluate if query strings should be stored in local storage for state management
+- [ ] Unit Test coverage
+- [ ] Evaluate if the init should be bootstrap via IIFE to allow for zero configuration
+- [ ] Evaluate if query strings should be stored in local storage for state management
 
 ### Breakdown:
 
